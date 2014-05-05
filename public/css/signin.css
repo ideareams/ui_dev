@@ -1,0 +1,98 @@
+.form-signin {
+  max-width: 360px;
+  padding: 20px;
+  margin: 30px auto 20px;
+  background: #eeeff1;
+  border-radius: 8px;
+}
+.form-signin.social-signin { 
+  padding: 10px 10px 0 10px;
+}
+.form-signin .form-signin-heading
+/*.form-signin .checkbox*/ {
+  margin-bottom: 25px;
+  margin-top: 0px;
+  color: #787f85;
+}
+/*.form-signin .checkbox {
+  font-weight: normal;
+}*/
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+/*.form-signin .form-control:focus {
+  z-index: 2;
+}
+*/
+.form-signin .has-feedback .form-control-feedback {
+  top:8px;
+}
+/*.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}*/
+.signin-note{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.social-signin li {
+  padding-left:6%; 
+}
+.social-signin a{
+  color: #c8cdd3;
+  font-size: 30px;
+}
+.social-signin a:hover, #footer .list-inline li a:hover{ 
+  text-decoration: none;
+}
+.social-signin a.facebook:hover {
+  color: #405a95;
+}
+.social-signin a.twitter:hover {
+  color: #2caae4;
+}
+.social-signin a.linkedin:hover {
+  color: #135e98;
+}
+.social-signin a.googleplus:hover {
+  color: #de4734;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+}
+#footer .list-inline li, #footer .list-inline li a{
+  color: #b3b8bc;
+}
+#footer .list-inline li a:hover{ 
+  color: #16a086;
+  text-decoration: none;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
