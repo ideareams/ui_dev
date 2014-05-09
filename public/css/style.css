@@ -1,5 +1,16 @@
-.avatar {
+.avatar, .feed-lhs-action {
 /*	margin-right: 15px;*/
+	display: inline-block;
+	vertical-align: top;
+}
+.feed-lhs-action { 
+	padding: 25px 10px 0;
+}
+.feed-lhs-action .count-up {
+	color: #333;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 15px 0;
 }
 .avatar img{
 	width: 150px;
@@ -8,5 +19,31 @@
 .feed-lhs-action .glyphicon{
 	font-size: 28px;
 	color: #666;
-	margin-top: 25px;
+	/*margin-top: 25px;*/
 }
+.prototu-list-view {
+	background: #e7e7e7;
+}
+.prototu-list-view .navbar-fixed-top{
+	top: 20px;
+}
+.prototu-list-view .navbar-nav > li > a {
+	color: #555;
+	font-weight: bold;
+}
+.prototu-list-view .highlight{ 
+	background: #f7f7f7;
+	padding: 15px 10px;	
+}
+.prototu-list-view .navbar-brand {
+	padding: 0px;
+	margin-right: 20px
+}
+.avtar-cont  {
+	float: left;
+	margin-right: 15px;
+}
+/*.text-muted {
+  color: #999;
+  color: #b3b8bc;
+}*/

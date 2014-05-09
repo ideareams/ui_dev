@@ -26,9 +26,9 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body class="prototu-list-view">
 <!-- header :: starts -->
-<header class="navbar navbar-fixed-top  navbar-inverse" id="top" role="banner">
+<header class="navbar navbar-fixed-top " id="top" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
@@ -37,50 +37,52 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#" class="navbar-brand">Prototu</a>
+      <a href="#" class="navbar-brand"><img src="images/logo.png" alt="Prototu" height="50" /></a>
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         <li class="active">
-          <a href="#">Latest</a>
+          <a href="#"> Latest</a>
         </li>
         <li>
           <a href="#">Popular</a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Compose</a></li>
+        <li><a href="#" style="padding:0; background:#f7f7f7; border:1px solid;"><span class="glyphicon glyphicon-pencil" style="font-size:24px; padding:12px;"></span></a></li>
       </ul>
     </nav>
   </div>
 </header>
 <!-- header :: ends -->
 
-    <div class="container clearfix" style="margin-top:50px; padding:10px;">
+    <div class="container clearfix" style="margin-top:80px; padding:10px;">
 
     <div class="row highlight">
-        <div class="col-sm-1 feed-lhs-action">
+        <div class="avtar-cont "> 
+        <div class="feed-lhs-action">
           <span class="glyphicon glyphicon-thumbs-up media-object"></span>
+          <div class="count-up">365</div>
           <span class="glyphicon glyphicon-thumbs-down media-object"></span>
         </div>
-        <div class="col-sm-2"> 
           <a class="avatar">
           <img src="images/temp1.jpg" alt="Avtar" />
           </a>
         </div>
-        <div class="col-sm-9">
-          <h4>Using less.js in the browser is great for development, but it's not recommended for production</h4>
+        <div class="">
+         <h4>Using less.js in the browser is great for development, but it's not recommended for production</h4>
+          <p class="text-muted">by <a href="#">Harish Boke</a></p>
           <p>
             Client-side is the easiest way to get started and good for developing with Less, but in production, when performance and reliability is important, we recommend pre-compiling using node.js or one of the many third party tools available.
             <a href="#">Read More..</a>
           </p>
           <div>
             <ul class="list-inline">
-              <li><a href="#">Avg. Demand</a> <span>$365</span></li>
+              <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Avg. Demand</a> <span>$365</span></li>
               <li>&dot;</li>
-              <li><a href="#">Total. Demand</a> <span>$665</span></li>
+              <li><a href="#"><span class="glyphicon glyphicon-music"></span> Total. Demand</a> <span>$665</span></li>
               <li>&dot;</li>
-              <li><a href="#">Avg. Demand</a> <span>$365</span></li>
+              <li class="pull-right"><a href="#"><span class="glyphicon glyphicon-tags"></span> Science and Invention</a></li>
             </ul>
           </div>
         </div>
